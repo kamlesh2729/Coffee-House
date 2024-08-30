@@ -4,7 +4,7 @@
 
   <p>A <b>Coffee House</b> website is a coffee shop that peividrs you with quality coffee thet hepls boost your productivity and build your mood. Having a cup of coffee is good, but having a cup of real coffee is greater. There is no doubt that you will enjoy this coffee more than other you have ever tased.</p>
 
-  👉 Live Demo: <a href=''>Live Demo</a>
+  👉 Live Demo: <a href='https://housecoffee.netlify.app/'>Live Demo</a>
 
 <h3>Build with:</h3>
 
