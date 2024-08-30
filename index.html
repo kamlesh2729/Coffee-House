@@ -16,16 +16,53 @@
 
 </head>
 <body>
-<!-- navbar start -->
-<nav class="navbar navbar-expand-lg position-fixed w-100" data-nav>
-<div class="container bg-transparent">
+  <nav class="navbar navbar-expand-lg position-fixed w-100" data-nav>
+  <div class="container-fluid">
     <a class="navbar-brand" href="index.html">
     <img src="./assets/img/logo6.png" alt="Logo" class=" img-fluid h-50 w-50">
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler bg-white text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#About">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Menu">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Franchise">Franchise</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Testimonal">Testimonal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Contact-Us">Contact Us</a>
+        </li>
+    </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- navbar start -->
+<!-- <nav class="navbar navbar-expand-lg position-fixed w-100" data-nav>
+<div class="container">
+    <a class="navbar-brand" href="index.html">
+    <img src="./assets/img/logo6.png" alt="Logo" class=" img-fluid h-50 w-50">
+    </a>
+    <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon text-light"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link" href="index.html">Home</a>
@@ -33,8 +70,8 @@
         <li class="nav-item">
           <a class="nav-link" href="#About">About</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link" href="#">Menu</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#Menu">Menu</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#Franchise">Franchise</a>
@@ -48,7 +85,7 @@
     </ul>
     </div>
 </div>
-</nav>
+</nav> -->
 <!-- navbar end  -->
 <!-- hero start  -->
 <section class="hero" id="Home">
@@ -81,7 +118,7 @@
 </section>
 <!-- about end  -->
 <!-- best product start  -->
-<section class="best-product py-5 position-relative">
+<section class="best-product py-5 position-relative" id="Menu">
     <img src="./assets/img/sideimg.png" alt="side-image" class=" img-fluid position-absolute top-minus">
     <div class="container">
         <div class="row">
